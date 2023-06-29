@@ -1,0 +1,28 @@
+<ModOps>
+    <ModOp Type="replace" GUID='118718' Path="/Values/ItemContainer/InitSocketItems/Item" ModOpID="Flag">
+        <Item>
+            <Item>191878</Item>
+            <StackSize>1</StackSize>
+        </Item>
+    </ModOp>
+
+    <!-- iModYourAnno Tweaks -->
+    <ImyaTweaks Title="Great Eastern"/>
+
+    <!-- Set the type of flag to use -->
+    <ImyaExpose Path="self::Item/Item" ModOpID="Flag" ExposeID="Flag Type" Kind="Enum">
+        <FixedValues>
+            <Value>191878</Value> <!-- White Flag -->
+            <Value>191991</Value> <!-- Great White Flag -->
+        </FixedValues>
+    </ImyaExpose>
+
+    <!-- Toggle whether this ship should spawn with white flag -->
+    <ImyaExpose Path="self::Item/StackSize" ModOpID="Flag" ExposeID="Disable" Kind="Toggle">
+        <AltValue>
+            <StackSize>0</StackSize>
+        </AltValue>
+    </ImyaExpose>
+
+    <Include File="./assets.greateastern.imyatweak.include.xml" />
+</ModOps>

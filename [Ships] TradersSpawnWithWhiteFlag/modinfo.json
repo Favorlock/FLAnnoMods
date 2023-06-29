@@ -1,0 +1,17 @@
+{
+    "Version": "1.0.0",
+    "ModID": "TradersSpawnWithWhiteFlag",
+    "Category": {
+        "English": "Ships"
+    },
+    "ModName": {
+        "English": "Traders Spawn With White Flag"
+    },
+    "CreatorName": "Favorlock",
+    "CreatorContact": "https://github.com/Favorlock/FLAnnoMods",
+    "KnownIssues": [
+        {
+            "English": "Breaks destroy and escort quests (trade ships) as these ships will spawn with a white flag."
+        }
+    ]
+}

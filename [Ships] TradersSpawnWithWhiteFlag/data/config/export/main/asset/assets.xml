@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<!--
+    Trade ships will spawn with a white flag equipped. Optionally,
+    you can configure individual ships to use either the white flag
+    or the great white flag using iModYourAnno tweaks.
+
+    Flag GUIDs:
+
+    White Flag - 191878 (Default)
+    Great White Flag - 191991
+
+    Issues:
+    - Breaks destroy and escort quests (trade ships) as these ships will spawn with a white flag.
+-->
+
+<ModOps>
+    <!-- Schooner, Clipper, Cargo Ship, Extravganza Steamer, Great Easter, World-Class Reefer -->
+    <ModOp Type="add" GUID='100438,100441,1010062,102455,118718,132404' Path="/Values/ItemContainer">
+        <InitSocketItems>
+            <Item>
+                <Item>191878</Item>
+                <StackSize>1</StackSize>
+            </Item>
+        </InitSocketItems>
+    </ModOp>
+
+    <!-- Includes -->
+    <Include File="./assets.schooner.xml" />
+    <Include File="./asssets.clipper.xml" />
+    <Include File="./assets.cargoship.xml" />
+    <Include File="./assets.extravaganzasteamer.xml" />
+    <Include File="./assets.greateastern.xml" />
+    <Include File="./assets.worldclassreefer.xml" />
+</ModOps>
