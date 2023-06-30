@@ -20,7 +20,7 @@ Flag GUIDs:
 
 ## Credits
 
-- [Lillemats90]()'s [Great White Flag For Trade Ships](https://www.nexusmods.com/anno1800/mods/496) mod as a base reference for equipping an item to a ship.
+- [Lillemats90](https://www.nexusmods.com/anno1800/users/42186215)'s [Great White Flag For Trade Ships](https://www.nexusmods.com/anno1800/mods/496) mod as a base reference for equipping an item to a ship.
 
 ## Disclaimer
 
