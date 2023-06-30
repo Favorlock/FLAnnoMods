@@ -20,7 +20,7 @@ Flag GUIDs:
 
 ## Credits
 
-- [Sundown2020](https://www.nexusmods.com/anno1800/users/80923953)'s [Trade Ships Built Or Spawned With A White Flag](https://www.nexusmods.com/anno1800/mods/342) mod as the base reference for equipping an item to a ship.
+- [Lillemats90]()'s [Great White Flag For Trade Ships](https://www.nexusmods.com/anno1800/mods/496) mod as a base reference for equipping an item to a ship.
 
 ## Disclaimer
 
